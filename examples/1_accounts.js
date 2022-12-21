@@ -1,3 +1,5 @@
 const { ethers } = require("ethers");
 
-const provider = new ethers.providers.JsonRpcProvider();
+const rpcURL = "https://cloudflare-eth.com/"
+
+const provider = new ethers.providers.JsonRpcProvider(rpcURL);
