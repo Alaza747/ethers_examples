@@ -10,3 +10,5 @@ const checkBalance = async () => {
 }
 
 checkBalance()
+
+//test
