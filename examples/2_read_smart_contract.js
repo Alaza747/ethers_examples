@@ -14,7 +14,11 @@ const contract = new ethers.Contract(address, ERC20_ABI, provider)
 
 const main = async () => {
     const name = await contract.name();
-    console.log(name);
+    const symbol = await contract.symbol();
+
+    console.log(name, symbol);
+
+
 }
 
 main()
